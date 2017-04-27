@@ -99,8 +99,8 @@ cassandra:
   cluster_name: "${CASSANDRA_CLUSTER_NAME:Thingsboard Cluster}"
   # Thingsboard keyspace name
   keyspace_name: "${CASSANDRA_KEYSPACE_NAME:thingsboard}"
-  # Specify node list
-  url: "${CASSANDRA_URL:168.176.125.141:9042}"
+  # Specify node list ( 127.0.0.1:9042)
+  url: "${CASSANDRA_URL:127.0.0.1:9042}" 
   # Enable/disable secure connection
   ssl: "${CASSANDRA_USE_SSL:false}"
   # Enable/disable JMX
